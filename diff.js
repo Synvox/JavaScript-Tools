@@ -7,11 +7,10 @@
  * 
  * @param  {object|array} a Old Object
  * @param  {object|array} b New Object
- * @param  {undefined}    c For internal use only
  * @return {object}         Object that contains the absolute differences
  */
 var diff = function diff(a, b, c) {
-	
+
 	var c;
 	if (Array.isArray(a) && Array.isArray(b))
 		c = [];
